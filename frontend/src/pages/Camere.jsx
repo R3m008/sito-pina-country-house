@@ -195,7 +195,7 @@ export const Camere = () => {
                       <td className="py-4 px-4 font-semibold text-stone-700">Ideale per</td>
                       <td className="py-4 px-4 text-center text-stone-600">Coppie</td>
                       <td className="py-4 px-4 text-center text-stone-600">Famiglie / Coppie</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Weekend Romantici</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Coppie</td>
                     </tr>
                   </tbody>
                 </table>
