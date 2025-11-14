@@ -63,32 +63,6 @@ export const ChiSiamo = () => {
                 {aboutInfo.location}
               </p>
             </div>
-
-            {/* Image Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-              <div className="relative h-64 rounded-xl overflow-hidden shadow-lg group">
-                <img
-                  src={heroImages.interior}
-                  alt="Interni della Struttura"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">I Nostri Interni</h3>
-                </div>
-              </div>
-              <div className="relative h-64 rounded-xl overflow-hidden shadow-lg group">
-                <img
-                  src={heroImages.aerial}
-                  alt="Vista aerea"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">Vista dall'Alto</h3>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

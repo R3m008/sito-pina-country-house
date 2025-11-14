@@ -33,9 +33,6 @@ export const Home = () => {
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-stone-900 text-lg px-8 py-6 shadow-xl transition-all duration-300">
-              Scopri di più
-            </Button>
           </div>
         </div>
 

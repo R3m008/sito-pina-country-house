@@ -27,9 +27,9 @@ export const Header = () => {
               <Phone size={14} />
               <span>+39 328 381 5813</span>
             </a>
-            <a href="mailto:info@pinacountryhouse.it" className="flex items-center gap-2 hover:text-emerald-700 transition-colors">
+            <a href="mailto:infopinacountryhouse@gmail.com" className="flex items-center gap-2 hover:text-emerald-700 transition-colors">
               <Mail size={14} />
-              <span>info@pinacountryhouse.it</span>
+              <span>infopinacountryhouse@gmail.com</span>
             </a>
           </div>
         </div>
@@ -38,9 +38,11 @@ export const Header = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
-              <span className="text-white font-bold text-xl">P</span>
-            </div>
+              <img
+                src="/images/Logo.png"
+                alt="Pina Country House Logo"
+                className="w-24 h-24 object-contain"
+              />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-stone-800 leading-tight">Pina</span>
               <span className="text-sm text-emerald-700 font-medium">Country House</span>

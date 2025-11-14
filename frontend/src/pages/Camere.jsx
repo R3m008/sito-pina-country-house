@@ -175,26 +175,26 @@ export const Camere = () => {
                   <tbody>
                     <tr className="border-b border-stone-100">
                       <td className="py-4 px-4 font-semibold text-stone-700">Tipo Letto</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Queen Size</td>
-                      <td className="py-4 px-4 text-center text-stone-600">King Size</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Matrimoniale</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Matrimoniale + 2 singoli</td>
                       <td className="py-4 px-4 text-center text-stone-600">Matrimoniale</td>
                     </tr>
                     <tr className="border-b border-stone-100">
                       <td className="py-4 px-4 font-semibold text-stone-700">Bagno</td>
                       <td className="py-4 px-4 text-center text-stone-600">Doccia Spaziosa</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Vasca Idromassaggio</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Bagno Privato</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Doccia Spaziosa</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Vasca Spaziosa</td>
                     </tr>
                     <tr>
                       <td className="py-4 px-4 font-semibold text-stone-700">Spazio Extra</td>
                       <td className="py-4 px-4 text-center text-stone-600">Angolo Scrivania</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Angolo Salotto + Balcone</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Frigobar</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Angolo Scrivania</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Angolo Scrivania</td>
                     </tr>
                     <tr>
                       <td className="py-4 px-4 font-semibold text-stone-700">Ideale per</td>
                       <td className="py-4 px-4 text-center text-stone-600">Coppie</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Famiglie / Coppie</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Famiglie / 4 Persone</td>
                       <td className="py-4 px-4 text-center text-stone-600">Coppie</td>
                     </tr>
                   </tbody>

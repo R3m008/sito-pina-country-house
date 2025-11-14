@@ -19,9 +19,11 @@ export const Footer = () => {
           {/* Logo e descrizione */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-lg flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-xl">P</span>
-              </div>
+                <img
+                src="/images/Logo.png"
+                alt="Pina Country House Logo"
+                className="w-24 h-24 object-contain"
+              />
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white leading-tight">Pina</span>
                 <span className="text-sm text-emerald-400 font-medium">Country House</span>
@@ -81,6 +83,7 @@ export const Footer = () => {
           </div>
 
           {/* Social Media */}
+                      {/*
           <div>
             <h3 className="text-white font-bold mb-4 text-lg">Seguici</h3>
             <div className="flex gap-4">
@@ -112,7 +115,7 @@ export const Footer = () => {
                 <Star size={20} />
               </a>
             </div>
-          </div>
+          </div>          */}
         </div>
 
         {/* Copyright */}

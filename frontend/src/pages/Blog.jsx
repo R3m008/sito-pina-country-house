@@ -82,9 +82,6 @@ export const Blog = () => {
                       {post.title}
                     </h3>
                     <p className="text-stone-600 leading-relaxed mb-4">{post.excerpt}</p>
-                    <Button variant="outline" className="w-full group-hover:bg-emerald-700 group-hover:text-white group-hover:border-emerald-700 transition-all duration-300">
-                      Leggi di Più
-                    </Button>
                   </CardContent>
                 </Card>
               ))}
@@ -145,30 +142,6 @@ export const Blog = () => {
                   <p className="text-stone-600 text-sm">Degusta i sapori autentici del territorio</p>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Newsletter CTA */}
-      <section className="py-20 bg-gradient-to-r from-stone-800 to-emerald-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Non Perdere le Novità!
-            </h2>
-            <p className="text-xl mb-8 text-stone-200">
-              Iscriviti alla nostra newsletter per ricevere aggiornamenti sugli eventi e le iniziative del territorio.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="La tua email"
-                className="flex-1 px-6 py-4 rounded-lg text-stone-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              />
-              <Button className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-4 text-lg whitespace-nowrap">
-                Iscriviti
-              </Button>
             </div>
           </div>
         </div>
