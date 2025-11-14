@@ -207,6 +207,21 @@ export const blogPosts = [
 ),
     image: "/images/blog-disfida-dei-trombonieri.webp",
     category: "Eventi"
+  },
+  {
+    id: 5,
+    title: "Presepe Vivente",
+    date: "12 Novembre 2025",
+    excerpt: (
+  <span>
+    <a href="https://www.facebook.com/presepeviventecasetrezza" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>
+      Il presepe vivente di Cava de’ Tirreni
+    </a>
+    , allestito nella suggestiva frazione di Sant’Anna, è una rievocazione ricca di atmosfera e tradizione. Le stradine e le corti del borgo si trasformano in un antico villaggio palestinese, animato da figuranti in costumi d’epoca che rappresentano mestieri, scene di vita quotidiana e momenti della Natività. Tra luci soffuse, suoni antichi e profumi di prodotti locali, i visitatori possono immergersi in un percorso emozionante che unisce spiritualità, storia e comunità, rendendo questo evento uno dei più sentiti e affascinanti della zona.
+  </span>
+),
+    image: "/images/blog-prespe-vivente.jpg",
+    category: "Eventi"
   }
 ];
 
