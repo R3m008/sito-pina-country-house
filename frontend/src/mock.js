@@ -132,7 +132,8 @@ export const rooms = [
     description: "Camera accogliente e calda, con tonalità del rosso rubino e bordeaux. Atmosfera intima e romantica, ideale per un weekend di coppia all'insegna del relax e della passione.",
     features: [
       "Letto matrimoniale",
-      "Bagno privato con vasca spaziosa",
+      "Bagno privato",
+      "Vasca idromassaggio spaziosa",
       "Aria condizionata",
       "TV satellitare",
       "Angolo Scrivania"

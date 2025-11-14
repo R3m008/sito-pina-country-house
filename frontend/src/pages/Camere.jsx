@@ -183,7 +183,7 @@ export const Camere = () => {
                       <td className="py-4 px-4 font-semibold text-stone-700">Bagno</td>
                       <td className="py-4 px-4 text-center text-stone-600">Doccia Spaziosa</td>
                       <td className="py-4 px-4 text-center text-stone-600">Doccia Spaziosa</td>
-                      <td className="py-4 px-4 text-center text-stone-600">Vasca Spaziosa</td>
+                      <td className="py-4 px-4 text-center text-stone-600">Vasca Idromassaggio Spaziosa</td>
                     </tr>
                     <tr>
                       <td className="py-4 px-4 font-semibold text-stone-700">Spazio Extra</td>
