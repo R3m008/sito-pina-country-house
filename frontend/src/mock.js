@@ -22,7 +22,8 @@ export const services = [
     id: 1,
     title: "Colazione Genuina",
     description: "Prodotti locali, dolci freschi, opzioni salate e per intolleranze. Inizia la giornata con i sapori autentici del territorio.",
-    icon: "coffee"
+    icon: "coffee",
+    image: "/images/Colazione.jpeg"
   },
   {
     id: 2,
@@ -39,7 +40,7 @@ export const services = [
   {
     id: 4,
     title: "Biancheria e Cortesia",
-    description: "Fornitura completa di lenzuola e asciugamani freschi, set di cortesia per il bagno con prodotti di qualità.",
+    description: "Fornitura completa di lenzuola e asciugamani, set di cortesia per il bagno con prodotti di qualità.",
     icon: "sparkles"
   },
   {
@@ -59,6 +60,13 @@ export const services = [
     title: "Spazi Comuni Interni",
     description: "Accesso alle aree comuni interne della struttura per momenti di relax e condivisione in un ambiente accogliente.",
     icon: "trees"
+  },
+  {
+    id: 8,
+    title: "Spazi Comuni Esterni",
+    description: "Terrazza panoramica coperta per godersi a pieno la natura, ideale per colazioni all'aperto o momenti di relax.",
+    icon: "trees",
+    image: "/images/Spazio-comune-esterno.jpg"
   }
 ];
 
