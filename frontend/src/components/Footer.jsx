@@ -25,7 +25,7 @@ export const Footer = () => {
                 className="w-24 h-24 object-contain"
               />
               <div className="flex flex-col">
-                <span className="text-sm text-white font-medium">B&B</span>
+                <span className="text-sm text-white font-medium">Affittacamere</span>
                 <span className="text-xl font-bold text-white leading-tight">Pina</span>
                 <span className="text-sm text-emerald-400 font-medium">Country House</span>
               </div>
