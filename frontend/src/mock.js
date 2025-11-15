@@ -222,6 +222,21 @@ export const blogPosts = [
 ),
     image: "/images/blog-prespe-vivente.jpg",
     category: "Eventi"
+  },
+  {
+    id: 6,
+    title: "Luci d’Artista a Salerno",
+    date: "12 Novembre 2025",
+    excerpt: (
+  <span>
+    <a href="https://www.lucidartistasalerno.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>
+      Ogni inverno Salerno si illumina con le Luci d’Artista
+    </a>
+    , spettacolari installazioni luminose che trasformano la città in un percorso magico tra vie, piazze e parchi. Un evento imperdibile, perfetto per vivere l’atmosfera natalizia tra colori, creatività e suggestioni. Un’occasione speciale per i nostri ospiti per scoprire Salerno in tutta la sua magia.
+  </span>
+),
+    image: "/images/blog-luci-d'artista-salerno.jpg",
+    category: "Eventi"
   }
 ];
 

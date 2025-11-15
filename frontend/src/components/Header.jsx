@@ -44,6 +44,7 @@ export const Header = () => {
                 className="w-24 h-24 object-contain"
               />
             <div className="flex flex-col">
+              <span className="text-sm text-stone-800 font-medium">B&B</span>
               <span className="text-xl font-bold text-stone-800 leading-tight">Pina</span>
               <span className="text-sm text-emerald-700 font-medium">Country House</span>
             </div>
